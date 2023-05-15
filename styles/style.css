@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+.navbar-brand {
+  font-family: "Kumbh Sans";
+}
+.navbar-nav a {
+  color: #27296d;
+}
+
+.banner {
+  padding: 15px;
+}
+
+.carousel-inner {
+  border-radius: 50%;
+  width: 120%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-inner-caption {
+  padding-top: 50px;
+  background-color: white;
+  color: black;
+  z-index: 2;
+  top: 5%;
+}
+.carousel-inner-caption p {
+  background-color: white;
+}
+.carousel-inner-item::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
